@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-grid">
+            <div class="logo"><h1>Logo</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <div class="burger" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="dropdown-menu" id="sidebar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="overlay">
+                <div>
+                    <h2>Check out our newest projects</h2>
+                    <a href="index.html#main"><button>See Now</button></a>
+
+                </div>
+            </div>
+        </section>
+        <div class="space"></div>
+        <section>
+            <h2 class="icon-title">We offer</h2>
+            <div class="space"></div>
+            <div class="page-grid">
+                <div class="main-grid content-width center ">
+                    <div><img src="icons/iconmonstr-dashboard-filled-120.png" alt=""><p class="icon">Modern layouts</p></div>
+                    <div><img src="icons/iconmonstr-magnifier-lined-120.png" alt=""><p class="icon">SEO</p></div>
+                    <div><img src="icons/iconmonstr-banknote-thin-120.png" alt=""><p class="icon">Great Price</p></div>
+                </div>
+            </div>
+        </section>
+        <section id="main">
+            <h2 class="main-title"> Newest Web Examples</h2>
+            <div class="page-grid">
+            <div class="main-grid content-width">
+                <article class="card">
+                    <a href="project-one.html"><img src="./web_dev_images/project-1.jpg" alt="">
+                    <p>Web Project 1</p></a>
+                </article>
+                <article class="card">
+                    <a href="project-two.html">
+                    <img src="./web_dev_images/project-2.jpg" alt="">
+                    <p>Web Project 2</p></a>
+                </article>
+                <article class="card">
+                    <a href="project-three.html"><img src="./web_dev_images/project-3.jpg" alt="">
+                    <p>Web Project 3</p></a>
+                </article>
+                <article class="card">
+                    <a href="project-four.html"><img src="./web_dev_images/project-4.jpg" alt="">
+                    <p>Web Project 4</p></a>
+                </article>
+                <article class="card">
+                    <a href="project-five.html"><img src="./web_dev_images/project-5.jpg" alt="">
+                    <p>Web Project 5</p></a>
+                </article>
+                <article class="card">
+                    <a href="project-six.html"><img src="./web_dev_images/webdev-image-2.jpg" alt="">
+                    <p>Web Project 6</p></a>
+                </article>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="page-grid">
+        <aside class="main-grid content-width">
+            <ul>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">GDPR</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://youtube.com/" target="_blank">Youtube</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
+    </div>
+        <p class="full-width">Copyright&copy; MicroCode 2024 </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

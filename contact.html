@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-grid">
+            <div class="logo"><h1>Logo</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <div class="burger" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="dropdown-menu" id="sidebar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="space"></div>
+        <section>
+
+        </section>
+        <section>
+            <h2 class="main-title"> Contact Us</h2>
+            <div class="page-grid">
+            <div class="main-grid content-width">
+                <article class="content-width">
+                    <p id="title">Contact us so we can start working on your project now.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sequi quisquam hic maxime amet mollitia id sint dolor fuga assumenda repellat illo sed? Sed qui delectus dolorem iure, placeat repudiandae!</p>
+                </article>
+                <div class="content-width">
+                    <form action="" name="contact-form" method="post" class="contact">
+                    <input type="text" name="name" placeholder="Name and Surname"><br>
+                    <input type="email" name="e-mail" placeholder="E-mail address"><br>
+                    <input type="text" name="subject" placeholder="Subject"><br>
+                    <textarea name="message"  placeholder="Your Message"></textarea><br>
+                    <input type="submit" name="submit-btn" value="Send Your Message">
+                    
+                    </form>
+                    <p class="left">Do you want to receive our newsletter?</p>
+                    <input type="radio" name="news" id="news-yes" value="news-yes"><label for="news-yes">Yes</label><br>
+                    <input type="radio" name="news" id="news-no" value="news-no"><label for="news-no">No</label>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="page-grid">
+        <aside class="main-grid content-width">
+            <ul>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">GDPR</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://youtube.com/" target="_blank">Youtube</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
+    </div>
+        <p class="full-width">Copyright&copy; MicroCode 2024 </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
